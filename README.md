@@ -8,7 +8,6 @@ Current pilot setup:
 - path: vLLM [[5]](#ref-vllm) draft + HF target verification
 - fixed settings: γ=4, batch=1, max_new_tokens=256
 - varied setting: BF16, GPTQ INT8, GPTQ INT4 draft precision
-- see more / runbook: [`notes/README.md`](notes/README.md)
 
 Main takeaway:
 
@@ -16,6 +15,10 @@ Main takeaway:
 - INT4 gives +6.4% chat / +7.7% reasoning throughput, but lowers acceptance.
 - The 16-token run overstated the gain at about +27%, so output length became the main methodology lesson.
 - The measurements point toward the same intuition QSPEC Section 3.2 frames analytically through Eq. 3 (`v ~ C(k)/H(k)`): in heterogeneous SD without shared weights, the cheap draft-precision gains appear to saturate well below the 1.64× headroom QSPEC's design exploits.
+
+## See More / Runbook
+
+[`notes/README.md`](notes/README.md)
 
 ## Headline result
 
