@@ -1,0 +1,2 @@
+If a draft proposes four tokens and the verifier accepts two, how many were rejected?
+Explain why deeper speculative positions might be more sensitive to quantization.

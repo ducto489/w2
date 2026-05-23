@@ -1,0 +1,7 @@
+profiles:
+  smoke:
+    target_model: gpt2
+    draft_model: gpt2
+  gpu_candidate:
+    target_model: meta-llama/Meta-Llama-3-8B-Instruct
+    draft_model: meta-llama/Llama-3.2-1B-Instruct

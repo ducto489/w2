@@ -1,0 +1,4 @@
+task,draft_precision,quant_method,gamma,num_prompts,acceptance_rate_mean,acceptance_rate_std,mean_accepted_length_mean,position_1_acceptance,position_2_acceptance,position_3_acceptance,position_4_acceptance,draft_time_ms_mean,total_wall_time_ms_mean,tokens_per_second_mean,quality_mean,draft_cost_share_mean
+chat,bf16,none,4,2,0.875,0.0,3.5,1.0,1.0,1.0,0.5,1539.7020261734724,2100.04975553602,4.401581770594029,1.0,0.6787846518399518
+chat,int4,bnb,4,2,0.40625,0.09375,1.625,0.5833333333333333,0.4583333333333333,0.29166666666666663,0.29166666666666663,2843.7434332445264,3357.0991894230247,2.7022245942239946,1.0,0.8214617279446146
+chat,int8,bnb,4,2,0.875,0.0,3.5,1.0,1.0,1.0,0.5,3937.1256483718753,4474.317964166403,1.841813138032891,1.0,0.8776417554188838

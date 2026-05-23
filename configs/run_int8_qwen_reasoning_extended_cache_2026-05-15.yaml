@@ -1,0 +1,9 @@
+task: reasoning
+prompts_path: configs/prompts_reasoning_extended.txt
+target_model: Qwen/Qwen2.5-7B-Instruct
+draft_model: Qwen/Qwen2.5-1.5B-Instruct
+gamma: 4
+max_new_tokens: 16
+batch_size: 1
+quant_method: bnb
+results_dir: results/raw_qwen_reasoning_extended_cache_2026-05-15

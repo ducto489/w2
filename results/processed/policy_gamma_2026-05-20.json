@@ -1,0 +1,58 @@
+{
+  "policy": [
+    {
+      "task": "chat",
+      "draft_precision": "bf16",
+      "quant_method": "none",
+      "gamma": 4,
+      "acceptance_rate_mean": 0.4917526455026455,
+      "tokens_per_second_mean": 24.936027851197114,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "chat",
+      "draft_precision": "int4",
+      "quant_method": "gptq_marlin",
+      "gamma": 3,
+      "acceptance_rate_mean": 0.5411860670194004,
+      "tokens_per_second_mean": 27.219807453347375,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "chat",
+      "draft_precision": "int8",
+      "quant_method": "gptq",
+      "gamma": 2,
+      "acceptance_rate_mean": 0.6351124338624339,
+      "tokens_per_second_mean": 26.726810942562295,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "reasoning",
+      "draft_precision": "bf16",
+      "quant_method": "none",
+      "gamma": 2,
+      "acceptance_rate_mean": 0.6734421596921597,
+      "tokens_per_second_mean": 26.319449927423143,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "reasoning",
+      "draft_precision": "int4",
+      "quant_method": "gptq_marlin",
+      "gamma": 4,
+      "acceptance_rate_mean": 0.5662647306397306,
+      "tokens_per_second_mean": 27.36866845713065,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "reasoning",
+      "draft_precision": "int8",
+      "quant_method": "gptq",
+      "gamma": 2,
+      "acceptance_rate_mean": 0.6761309523809524,
+      "tokens_per_second_mean": 27.12311476796811,
+      "acceptance_floor": 0.45
+    }
+  ]
+}

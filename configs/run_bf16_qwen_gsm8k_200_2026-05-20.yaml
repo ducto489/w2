@@ -1,0 +1,9 @@
+task: gsm8k
+prompts_path: configs/prompts_gsm8k_200.txt
+target_model: Qwen/Qwen2.5-7B-Instruct
+draft_model: Qwen/Qwen2.5-1.5B-Instruct
+gamma: 4
+max_new_tokens: 128
+batch_size: 1
+quant_method: none
+results_dir: results/raw_qwen_gsm8k_200_2026-05-20

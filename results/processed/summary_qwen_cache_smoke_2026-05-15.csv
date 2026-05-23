@@ -1,0 +1,2 @@
+task,draft_precision,quant_method,gamma,num_prompts,acceptance_rate_mean,acceptance_rate_std,mean_accepted_length_mean,position_1_acceptance,position_2_acceptance,position_3_acceptance,position_4_acceptance,draft_time_ms_mean,total_wall_time_ms_mean,tokens_per_second_mean,quality_mean,draft_cost_share_mean
+chat,bf16,none,4,2,0.875,0.0,3.5,1.0,1.0,1.0,0.5,956.480166874826,1208.0201180651784,10.036390717848533,1.0,0.6798208729771381

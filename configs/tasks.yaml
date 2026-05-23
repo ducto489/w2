@@ -1,0 +1,5 @@
+tasks:
+  chat:
+    prompts_path: configs/prompts_chat.txt
+  reasoning:
+    prompts_path: configs/prompts_reasoning.txt

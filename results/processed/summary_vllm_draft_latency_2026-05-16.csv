@@ -1,0 +1,3 @@
+task,backend,quantization_backend,num_prompts,latency_ms_mean,latency_ms_p50,latency_ms_p95,tokens_per_second_mean
+chat,vllm,gptq_marlin,10,280.10710179805756,285.9718929976225,375.07172487676144,120.81274560969241
+reasoning,vllm,gptq_marlin,10,223.37719146162271,218.35431549698114,273.632250726223,145.85530619016643

@@ -1,0 +1,20 @@
+{
+  "policy": [
+    {
+      "task": "chat",
+      "draft_precision": "int4",
+      "quant_method": "gptq_marlin",
+      "acceptance_rate_mean": 0.4664087301587302,
+      "tokens_per_second_mean": 26.63955837884034,
+      "acceptance_floor": 0.45
+    },
+    {
+      "task": "reasoning",
+      "draft_precision": "int4",
+      "quant_method": "gptq_marlin",
+      "acceptance_rate_mean": 0.5662647306397306,
+      "tokens_per_second_mean": 26.99385662704737,
+      "acceptance_floor": 0.45
+    }
+  ]
+}

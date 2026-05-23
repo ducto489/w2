@@ -1,0 +1,30 @@
+If a draft proposes four tokens and the verifier accepts two, how many were rejected?
+Explain why deeper speculative positions might be more sensitive to quantization.
+If acceptance rate drops while draft latency improves, explain why end-to-end speedup can still get worse.
+In one short paragraph, explain why a low draft cost share limits the benefit of draft quantization.
+Suppose gamma is 4 and the verifier usually rejects the fourth speculative token. What does that suggest about position-wise acceptance?
+Explain why comparing BF16, INT8, and INT4 on different prompt sets would weaken the benchmark conclusion.
+If a quantized draft changes the token distribution only slightly at early positions but more at later positions, what pattern should appear in position-wise acceptance?
+Why should a benchmark log both acceptance metrics and output-quality metrics instead of only tokens per second?
+Give one reason a reasoning-style prompt may be more sensitive to draft degradation than a short greeting prompt.
+Explain why a small CUDA smoke run is useful even if it is not yet enough for a scientific conclusion.
+If BF16 and INT4 produce the same quality score but INT4 has lower acceptance, explain what additional metric would help interpret the result.
+Suppose a draft backend is twice as fast but acceptance falls by half. Explain why the net effect on throughput is ambiguous.
+If position 1 acceptance is high but position 4 acceptance is low, what change to gamma might be worth testing later?
+Explain why exact token-sequence agreement is a limited quality metric for open-ended generation.
+Suppose two benchmark runs use different prompt sets. Describe how that could confound a precision comparison.
+If INT8 has higher acceptance than BF16 but lower throughput, what likely systems explanation should be checked?
+Explain why a target model should remain fixed when measuring draft-side quantization effects.
+If a vLLM GPTQ draft is faster than a Hugging Face bitsandbytes draft, why is that a backend comparison rather than a pure precision comparison?
+Describe how draft cost share affects whether draft quantization can improve end-to-end speculative decoding.
+If raw logs show many target verification calls after early rejections, what might that imply about useful speculation length?
+Explain why confidence intervals or larger prompt sets become important after a successful smoke benchmark.
+Suppose INT4 improves tokens per second but lowers position-wise acceptance at deeper positions. How should that tradeoff be reported?
+If quality_score is 1.0 for every prompt in a small run, why should the benchmark still avoid claiming semantic quality is solved?
+Explain why profiling draft forward time helps distinguish algorithmic acceptance loss from backend overhead.
+If a prompt asks for multi-step reasoning, why might small token distribution changes in the draft matter more than for a short greeting?
+Describe one reason to aggregate raw JSONL into a summary CSV before making figures.
+If benchmark artifacts are ignored by git, what should a reproducibility note tell the reader?
+Explain why adding gamma ablations before scaling the main comparison could weaken the pilot narrative.
+If two methods have similar acceptance but different tokens per second, what runtime measurements should be inspected?
+Describe the most conservative conclusion one can draw from a 30-prompt-per-task pilot.

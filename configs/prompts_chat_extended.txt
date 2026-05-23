@@ -1,0 +1,30 @@
+Write a concise greeting.
+Summarize why speculative decoding can be faster than target-only decoding.
+Explain the difference between acceptance rate and throughput in one short paragraph.
+List two reasons draft-side quantization might reduce speculative decoding speedup.
+Write one sentence defining draft cost share.
+Describe what position-wise acceptance measures in speculative decoding.
+Give a short example of a case where INT4 could hurt acceptance more than INT8.
+Explain why a fixed target model is important in a controlled benchmark study.
+Write two sentences about why tiny smoke sweeps are useful before larger runs.
+State one reason quality metrics should be logged beside latency metrics.
+Write a two-sentence explanation of why a faster draft model can still fail to improve speculative decoding.
+Define target verification in speculative decoding using plain language.
+List two benchmark settings that should stay fixed when comparing draft precisions.
+Explain why measuring only average latency can hide an acceptance-rate problem.
+Write one short paragraph about the tradeoff between INT4 draft speed and token agreement.
+Give a concise example of how a rejected speculative token affects generation progress.
+State why a target-only baseline is useful when evaluating generated output quality.
+Summarize the role of gamma in speculative decoding in two sentences.
+Explain why backend choice matters when evaluating quantized draft models.
+Write one sentence describing why raw JSONL logs are useful for reproducibility.
+List two symptoms that a quantized draft backend is too slow for useful speculation.
+Explain why a controlled pilot should avoid changing both model size and precision at once.
+Write a short note describing what a Pareto frontier would show in this benchmark.
+State one reason a small prompt set can produce misleading acceptance-rate estimates.
+Explain why per-position acceptance can be more informative than a single aggregate rate.
+Give one example of a prompt type that might tolerate aggressive draft quantization.
+Write two sentences about why benchmarking should include both chat and reasoning prompts.
+Explain why an implementation smoke test is different from a research conclusion.
+State one reason to prefer a fresh results directory for each benchmark sweep.
+Write a concise summary of the current pilot question in one sentence.
