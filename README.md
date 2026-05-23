@@ -8,7 +8,7 @@ Current pilot setup:
 - path: vLLM [[5]](#ref-vllm) draft + HF target verification
 - fixed settings: γ=4, batch=1, max_new_tokens=256
 - varied setting: BF16, GPTQ INT8, GPTQ INT4 draft precision
-- reproduce: see `notes/README.md`
+- see more / runbook: [`notes/README.md`](notes/README.md)
 
 Main takeaway:
 
