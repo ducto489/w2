@@ -16,9 +16,10 @@ Main takeaway:
 - The 16-token run overstated the gain at about +27%, so output length became the main methodology lesson.
 - The measurements point toward the same intuition QSPEC Section 3.2 frames analytically through Eq. 3 (`v ~ C(k)/H(k)`): in heterogeneous SD without shared weights, the cheap draft-precision gains appear to saturate well below the 1.64× headroom QSPEC's design exploits.
 
-## See More / Runbook
+## Want to reproduce this?
 
-[`notes/README.md`](notes/README.md)
+See [`notes/README.md`](notes/README.md) for the test commands, primary artifacts,
+and matched 256-token rerun details.
 
 ## Headline result
 
